@@ -109,7 +109,9 @@
 #define SV_MENU_H
 
 #include <Xm/Xm.h>
-#include <Av.h>
+#include "Av.h"
+
+class AvApp;
 
 enum MenuButtons {
   SEPARATOR, 

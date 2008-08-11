@@ -27,14 +27,8 @@
 //# $Id: AvLinearMap.cc,v 19.1 2003/09/10 05:03:25 mcalabre Exp $
 //#---------------------------------------------------------------------------
 
-#include <AvLinearMap.h>
-
-#ifdef AIPSPLUSPLUS
+#include "AvLinearMap.h"
 #include <wcslib/lin.h>
-#else
-#include <lin.h>
-#endif
-
 #include <stdlib.h>
 #include <strings.h>
 

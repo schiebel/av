@@ -127,20 +127,20 @@ axisInfo could be a standalone class, although it might be a good idea to
 make it a subclass of AvResource.
 */
 
-#include <AvRaster.h>
-#include <AvCanvas.h>
+#include "AvRaster.h"
+#include "AvCanvas.h"
 
 #include <stdio.h>		// sprintf
 
 #if 0
 #ifndef STANDALONE
-#include <Av.h>			// For BlankedValue.
+#include "Av.h"			// For BlankedValue.
 #else
 #include <math.h>
 #define	BLANKEDVALUE	MAXFLOAT
 #endif
 #else
-#include <Av.h>
+#include "Av.h"
 #endif
 
 //static char *Name = "AvRaster";

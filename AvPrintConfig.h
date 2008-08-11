@@ -53,7 +53,7 @@ Creates several buttons and sliders for changing options.
 #define AvPrintConfig_h
 
 #include <X11/Intrinsic.h>
-#include <AvPrintOptions.h>
+#include "AvPrintOptions.h"
 
 class AvPrintConfig {
   public:

@@ -81,7 +81,7 @@
 
 
 
-#include <AvVisRep2D.h>
+#include "AvVisRep2D.h"
 
 
 const char * AvVisRep2D::className () const

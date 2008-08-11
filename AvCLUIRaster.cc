@@ -142,9 +142,9 @@ A 2D Raster that gets its data from the AvCLUImageSetter that created it.
 #include <string.h>
 #include <math.h>
 
-#include <AvCLUIRaster.h>
-#include <AvCLUImageSetter.h>
-#include <AvImageViewItem.h>
+#include "AvCLUIRaster.h"
+#include "AvCLUImageSetter.h"
+#include "AvImageViewItem.h"
 
 DEFINE_MEMBER_INFO(AvCLUIRaster)
 

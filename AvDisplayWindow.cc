@@ -86,7 +86,7 @@
 //
 //---------------------------------------------------------------------------
 
-#include <AvDisplayWindow.h>
+#include "AvDisplayWindow.h"
 
 const char * AvDisplayWindow::className () const
 {

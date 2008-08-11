@@ -99,8 +99,8 @@ together to maintain a constant-sized interval.  Inherits from
 AvConductor to provide callbacks. */
 
 
-#include <AvFormComp.h>
-#include <AvConductor.h>
+#include "AvFormComp.h"
+#include "AvConductor.h"
 
 class AvTwoValueSlider : public AvFormComp, public AvConductor {
   

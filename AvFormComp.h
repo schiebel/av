@@ -98,7 +98,7 @@
 XmForm as the base widget. */
 
 
-#include <AvUserComp.h>
+#include "AvUserComp.h"
 
 class AvFormComp : public AvUserComp {
 

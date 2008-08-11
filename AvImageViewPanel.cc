@@ -399,25 +399,25 @@
 #undef INVALID
 #endif
 
-#include <AvClipper.h>
-#include <AvImageView.h>
-#include <AvImageViewPanel.h>
-#include <AvStepper.h>
-#include <AvTable.h>
-#include <AvUserComp.h>
-#include <AvImageWindow.h>		// for getImageWindow call.
-#include <AvPosition.h>
-#include <AvProfile.h>
-#include <Av.h>
+#include "AvClipper.h"
+#include "AvImageView.h"
+#include "AvImageViewPanel.h"
+#include "AvStepper.h"
+#include "AvTable.h"
+#include "AvUserComp.h"
+#include "AvImageWindow.h"		// for getImageWindow call.
+#include "AvPosition.h"
+#include "AvProfile.h"
+#include "Av.h"
 
 #ifdef PGPLOT
-#include <AvProfileConfig.h>
+#include "AvProfileConfig.h"
 
 // Menu string for opening profile setup window.
 static const char *PROFILEMENU=	"Profile";
 #endif
 
-#include <AvProfileOptions.h>
+#include "AvProfileOptions.h"
 
 /* Get environment string for environment variable str.
 */

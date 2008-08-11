@@ -80,7 +80,7 @@
 /* AvEvent.C
 
 */
-#include <AvEvent.h>
+#include "AvEvent.h"
 
 void AvEvent::init(const EventType t, const float x, const float y,
 		   const int keymask, AvCanvas *canvas)

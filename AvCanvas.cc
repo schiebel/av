@@ -114,12 +114,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>			// getenv
-#include <AvCanvas.h>
-#include <AvRaster.h>
-#include <AvIVList.h>
-#include <AvPolylineP.h>
-#include <AvPathList.h>
-#include <AvViewportSetter.h>
+#include "AvCanvas.h"
+#include "AvRaster.h"
+#include "AvIVList.h"
+#include "AvPolylineP.h"
+#include "AvPathList.h"
+#include "AvViewportSetter.h"
 
 // Temporary way to let user select vector color.
 const char *DRAW_COLOR = "SV_DRAW_COLOR";

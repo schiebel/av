@@ -86,8 +86,8 @@
 //
 //---------------------------------------------------------------------------
 
-#include <AvVisual.h>
-#include <Av.h>
+#include "AvVisual.h"
+#include "Av.h"
 
 const char * AvVisual::className () const
 {

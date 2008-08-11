@@ -252,9 +252,9 @@ extern "C" {
 extern "C" { int isnan(double x); }
 #endif
      
-#include <AvString.h>
-#include <AvFitsDataSet.h>
-#include <Av.h>
+#include "AvString.h"
+#include "AvFitsDataSet.h"
+#include "Av.h"
 
 #if !defined(M_PI)
 #define M_PI            3.14159265358979323846
@@ -1433,7 +1433,12 @@ Boolean AvFitsDataSet::attach_(const char *pname)
   // dataMeasurementName).
   char label[80];
 
-  dataUnits_ = (getKeyword("BUNIT", label)) ? downcase(label) : AvString("");
+  if (getKeyword("BUNIT", label)) {
+    dataUnits_ =  AvString(label);
+    dataUnits_.downcase( );
+  } else {
+    dataUnits_ = AvString("");
+  }
 
   AvString s = downcase(dataUnits_);
 

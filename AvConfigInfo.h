@@ -234,19 +234,19 @@ void AvContourInfo::colorStyle(const COLORSTYLE style)
 
 #ifndef AvConfigInfo_h
 #define AvConfigInfo_h
-#include <AvResource.h>
+#include "AvResource.h"
 #include <fstream.h>
 #ifdef TCL
-#include <AvTcl.h>
+#include "AvTcl.h"
 #endif
 #ifndef FALSE
 #define FALSE 0
 #define TRUE 1
 #endif
 
-#include <AvString.h>
-#include <AvIPosition.h>
-#include <AvWPosition.h>
+#include "AvString.h"
+#include "AvIPosition.h"
+#include "AvWPosition.h"
 
 class AvConfigInfo : public AvResource {
   public:

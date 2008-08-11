@@ -126,8 +126,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include <AvPosition.h>
-#include <AvIPosition.h>
+#include "AvPosition.h"
+#include "AvIPosition.h"
 
 #if 0
 //#if defined(__GNUC__) && defined(__P) && !defined(__linux__)

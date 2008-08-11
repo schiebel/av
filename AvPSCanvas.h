@@ -52,10 +52,10 @@ PostScript canvas.
 
 
 #include <X11/Intrinsic.h>
-#include <AvGraphics2D.h>
-#include <AvCanvas.h>
-#include <AvGraphicContext.h>
-#include <AvPSDriver.h>
+#include "AvGraphics2D.h"
+#include "AvCanvas.h"
+#include "AvGraphicContext.h"
+#include "AvPSDriver.h"
 
 class AvPSCanvas;
 class AvPSPalette;

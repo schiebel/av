@@ -86,9 +86,9 @@ Only a relatively few library commands are available.
 #define TCL_H
 
 #include <unistd.h>
-#include <AvString.h>
-#include <AvWPosition.h>
-#include <AvIPosition.h>
+#include "AvString.h"
+#include "AvWPosition.h"
+#include "AvIPosition.h"
 //# Use tcl8.4 in non-const mode (to be able to use tcl 8.3 as well)
 #define USE_NON_CONST
 #include <tcl.h>

@@ -120,8 +120,8 @@
 #ifndef _SV_APP_H
 #define _SV_APP_H
 
-#include <AvMenu.h>
-#include <AvUserComp.h>
+#include "AvMenu.h"
+#include "AvUserComp.h"
 class AvXPalette;
 
 class AvApp : public AvUserComp {

@@ -118,7 +118,7 @@ class AvCLUImageSetter;
 class AvImageViewItem;
 class AvAccessor;
 
-#include <AvVisRep2D.h>
+#include "AvVisRep2D.h"
 
 class AvCLUImage : public AvVisRep2D{
 

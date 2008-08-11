@@ -82,10 +82,10 @@
 #define M_PI 3.14159265358979323846
 #endif
 
-#include <AvCoordinateSystem.h>
-#include <AvCelestialProjection.h>
-#include <AvLinearMap.h>
-#include <AvUnits.h>
+#include "AvCoordinateSystem.h"
+#include "AvCelestialProjection.h"
+#include "AvLinearMap.h"
+#include "AvUnits.h"
 
 
 AvCoordinateSystem::AvCoordinateSystem(const int nAxes)

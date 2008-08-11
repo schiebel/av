@@ -99,7 +99,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <AvXGlishClient.h>
+#include "AvXGlishClient.h"
 
 void AvXGlishClient::initFdSet()
 {

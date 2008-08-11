@@ -108,7 +108,7 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include <AvPointList2D.h>
+#include "AvPointList2D.h"
 
 AvPointList2D& AvPointList2D::operator =
 (const AvPointList2D& pl)

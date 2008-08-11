@@ -83,29 +83,29 @@ data set or NULL if none could be attached to.
 #include <sys/stat.h>
 #include <unistd.h>
 
-#include <AvMakeDataSet.h>
-//#include <AvDataSet.h>
+#include "AvMakeDataSet.h"
+//#include "AvDataSet.h"
 
 /////////////////////////////////////////////////////////////////////////
 // For now, FITS is always defined in aipsview. Others should be defined
 // in the Makefile.
 #define FITS
 #ifdef FITS
-#include <AvFitsDataSet.h>
+#include "AvFitsDataSet.h"
 #endif
 
 #ifdef MIRIAD
-#include <AvMIRDataSet.h>
+#include "AvMIRDataSet.h"
 #endif
 
 #ifdef HDF
-#include <AvHDFDataSet.h>
+#include "AvHDFDataSet.h"
 #endif
 
 // Whatever the defined is called will need to appear in the makefile and
 // will also appear in the list of Options in the announcement window.
 #ifdef AIPSPLUSPLUS
-#include <AvAipsDataSet.h>
+#include "AvAipsDataSet.h"
 #endif
 /////////////////////////////////////////////////////////////////////////
 

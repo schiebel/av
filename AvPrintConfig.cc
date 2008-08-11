@@ -71,9 +71,9 @@
 #include <Xm/Text.h>
 #include <Xm/ScrolledW.h>
 
-#include <AvPrintConfig.h>
-#include <AvGUIParts.h>
-#include <AvXColorApp.h>
+#include "AvPrintConfig.h"
+#include "AvGUIParts.h"
+#include "AvXColorApp.h"
 
 // A short list of paper sizes. Others may be added by entering their values.
 static const char *OTHERPAPER = "Other";

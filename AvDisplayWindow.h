@@ -94,7 +94,7 @@
 
 class AvMenu;
 
-#include <AvXColorApp.h>
+#include "AvXColorApp.h"
 
 /*
 abstract class to provide display functionality

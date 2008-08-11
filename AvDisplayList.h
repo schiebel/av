@@ -106,7 +106,7 @@ If the selected object is set to 'ignore', nothing will be drawn.
 #ifndef AvDisplayList2D_H
 #define AvDisplayList2D_H
 
-#include <AvGraphics2D.h>
+#include "AvGraphics2D.h"
 
 // List of Display objects. Interface is subject to change.
 class AvDisplayListImpl;

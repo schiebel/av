@@ -174,16 +174,16 @@ no current way to know when a window has been (in)excluded.
 #include <Xm/Command.h>
 #include <Xm/MainW.h>
 
-#include <AvImageView.h>
-#include <AvDisplayList.h>
-#include <AvViewportSetter.h>
-#include <AvXCanvases.h>
-#include <AvBlinkWindow.h>
-#include <AvCLUImage.h>
-#include <AvCLUImageSetter.h>
-#include <AvAxisVPS.h>
+#include "AvImageView.h"
+#include "AvDisplayList.h"
+#include "AvViewportSetter.h"
+#include "AvXCanvases.h"
+#include "AvBlinkWindow.h"
+#include "AvCLUImage.h"
+#include "AvCLUImageSetter.h"
+#include "AvAxisVPS.h"
 
-#include <AvXColorApp.h>
+#include "AvXColorApp.h"
 
 const char * AvBlinkWindow::className () const
 {

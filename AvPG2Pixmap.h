@@ -66,9 +66,9 @@
 #ifndef AvPG2Pixmap_h
 #define AvPG2Pixmap_h
 
-#include <AvPolyline.h>
+#include "AvPolyline.h"
 
-#include <AvXCanvases.h>
+#include "AvXCanvases.h"
 class AvPGDriver;
 class AvXPalette;
 

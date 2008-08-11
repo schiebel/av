@@ -212,18 +212,18 @@ Uses PGPLOT to draw a 'box' around the object.
 
 */
 #include <stdio.h>
-#include <AvAxis.h>
-#include <AvViewportSetter.h>
-#include <AvRaster.h>
-#include <AvPGDriver.h>
-#include <AvCanvas.h>
+#include "AvAxis.h"
+#include "AvViewportSetter.h"
+#include "AvRaster.h"
+#include "AvPGDriver.h"
+#include "AvCanvas.h"
 ///// Needed for curvilinear axis support.
-#include <AvCLUIRaster.h>
-#include <AvAccessor.h>
-#include <AvUnits.h>
+#include "AvCLUIRaster.h"
+#include "AvAccessor.h"
+#include "AvUnits.h"
 
 #if defined(AIPSPLUSPLUS) && defined(GLISH)
-#include <AvScrollingBufferDataSet.h>
+#include "AvScrollingBufferDataSet.h"
 #endif
 
 // If defined, prints out times for pgcrvl.
@@ -1034,6 +1034,9 @@ void AvAxis::drawMarker(const AvAxisOptions::marker *Marker,
 }
 #endif
 
+// For now, force quicker scaling.
+Boolean AxisGlobalOptions::ScaleInfo::QUICKSCALE = TRUE;
+
 ////////////////////////////////////////////////////////////////////////
 /////		pgcrvl interface
 ////////////////////////////////////////////////////////////////////////
@@ -1080,8 +1083,6 @@ static int oc1=0, oc2=0, ocm1 = 0;
 #ifdef TIMEIT
 static clock_t w2p0=0, w2p1=0, p2w0=0, p2w1=0;
 #endif
-// For now, force quicker scaling.
-Boolean AxisGlobalOptions::ScaleInfo::QUICKSCALE = TRUE;
 
 // In case ints are smaller than pointers, just pass the pointer to the
 // global options the BASIC way. Since aipsview isn't multi-threaded,
@@ -1737,7 +1738,7 @@ const AvAxisOptions::axis *Yaxis = options_->getAxisOptions(
 //****************************************************************
 //			PGPLOT code
 	// Open device.
-	if(cpgbeg(0, "/canvas", 1, 1) != 1)
+	if(cpgbeg(0, "/CANVAS", 1, 1) != 1)
 		return;
 	cpgask(0);		// Don't ask.
 

@@ -118,7 +118,7 @@
 #include <Xm/LabelG.h>
 #include <Xm/TextF.h>
 
-#include <AvStepper.h>
+#include "AvStepper.h"
 
 
 AvStepper::AvStepper

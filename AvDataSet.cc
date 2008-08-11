@@ -136,9 +136,9 @@ Defines interface to an aipsview data set.
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include <AvDataSet.h>
-#include <AvUnits.h>
-#include <Av.h>
+#include "AvDataSet.h"
+#include "AvUnits.h"
+#include "Av.h"
 
 AvDataSet::AvDataSet()
 {

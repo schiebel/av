@@ -98,7 +98,7 @@ AvImage		An AvRaster that stores the image in an internal array.
 #ifndef AvImage_H
 #define AvImage_H
 
-#include <AvRaster.h>
+#include "AvRaster.h"
 
 class  AvImage : public AvRaster {
   public:

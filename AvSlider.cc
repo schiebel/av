@@ -109,7 +109,7 @@
 #include <Xm/Scale.h>
 #include <Xm/TextF.h>
 
-#include <AvSlider.h>
+#include "AvSlider.h"
 
 
 AvSlider::AvSlider

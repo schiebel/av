@@ -71,12 +71,12 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include <AvIPosition.h>
-#include <AvWPosition.h>
+#include "AvIPosition.h"
+#include "AvWPosition.h"
 
-#include <AvVector.h>
-#include <AvDataSet.h>
-#include <AvResidentDataSet.h>
+#include "AvVector.h"
+#include "AvDataSet.h"
+#include "AvResidentDataSet.h"
 
 //
 // <summary>

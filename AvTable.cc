@@ -109,8 +109,8 @@
 #include <Xm/LabelG.h>
 #include <Xm/TextF.h>
 
-#include <AvTable.h>
-#include <AvWidgetMisc.h>
+#include "AvTable.h"
+#include "AvWidgetMisc.h"
 
 AvTable::AvTable
 (Widget parent, int buildInsideParent, int rows, int columns) :

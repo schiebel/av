@@ -79,9 +79,9 @@ them using PGPLOT calls.
 //#undef __P
 //#endif
 #include <math.h>
-#include <AvPolyline.h>
+#include "AvPolyline.h"
 #include "AvOverlayOptions.h"
-#include <AvAccessor.h>
+#include "AvAccessor.h"
 
 class AvRaster;
 class OverlayGlobalOptions;

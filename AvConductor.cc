@@ -102,7 +102,7 @@
 //---------------------------------------------------------------------------
 #include <iostream.h>		// For the cerr.
 
-#include <AvConductor.h>
+#include "AvConductor.h"
 
 AvConductorItem::AvConductorItem(AvConductorCB callback, const int when,
 				 XtPointer object, XtPointer userData)

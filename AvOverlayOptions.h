@@ -61,10 +61,10 @@ Overlay commands are read in from a file and drawn on top of other graphics.
 #ifndef AvOverlayOptions_h
 #define AvOverlayOptions_h
 
-#include <AvResource.h>
-#include <AvConductor.h>
-#include <AvNotifier.h>
-#include <AvConfigInfo.h>
+#include "AvResource.h"
+#include "AvConductor.h"
+#include "AvNotifier.h"
+#include "AvConfigInfo.h"
 
 class AvAccessor;
 

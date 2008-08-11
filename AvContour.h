@@ -99,8 +99,8 @@ viewports.
 #ifndef AvContour_h
 #define AvContour_h
 
-#include <AvPolyline.h>
-#include <AvContourInfo.h>
+#include "AvPolyline.h"
+#include "AvContourInfo.h"
 class AvRaster;
 class AvContourInfo;
 

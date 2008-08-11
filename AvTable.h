@@ -103,7 +103,7 @@
 /* <d> Motif-based class to put short text items into a table. */
 
 
-#include <AvFormComp.h>
+#include "AvFormComp.h"
 
 class AvTable : public AvFormComp {
 

@@ -118,8 +118,8 @@ AvRaster	An abstract object for displaying 2D objects.
 #ifndef AvRaster_H
 #define AvRaster_H
 
-#include <AvGraphics2D.h>
-#include <AvIPosition.h>
+#include "AvGraphics2D.h"
+#include "AvIPosition.h"
 
 class AvCanvas;	// Don't use include file, causes problems.
 

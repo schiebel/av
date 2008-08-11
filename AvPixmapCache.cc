@@ -105,8 +105,8 @@
 //
 //---------------------------------------------------------------------------
 
-#include <AvPixmapCache.h>
-#include <AvXCanvases.h>
+#include "AvPixmapCache.h"
+#include "AvXCanvases.h"
 
 AvPixmapCacheValue::AvPixmapCacheValue(AvXPixmap *pm)
 {

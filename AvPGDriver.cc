@@ -129,12 +129,12 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <AvPGDriver.h>
-#include <AvPolyline.h>
-#include <AvViewportSetter.h>
-#include <AvPointList2D.h>
-#include <AvCanvas.h>
-#include <AvPalette.h>
+#include "AvPGDriver.h"
+#include "AvPolyline.h"
+#include "AvViewportSetter.h"
+#include "AvPointList2D.h"
+#include "AvCanvas.h"
+#include "AvPalette.h"
 
 AvPGDriver *AvPGDriver::current = NULL;
 static const char *DEVICENAME_ = "CANVAS (AvCanvas driver)";
@@ -909,6 +909,7 @@ unsigned long color;
 	poly_->foreground(color);
 }	
 
+#if !defined(__APPLE_CC__)
 /* Do FORTRAN functions have a trailing underscore? (Most systems do). */
 #if !defined(NEED_FORTRAN_UNDERSCORES)
 #if defined(__hpux__)
@@ -967,7 +968,7 @@ int num;
 	}
 	return 0;
 }
-
+#endif
 
 #if 0
 

@@ -118,9 +118,9 @@ A 2D Raster that gets its data from an SVGriddedData object.
 #ifndef AvCLUIRaster_h
 #define AvCLUIRaster_h
 
-#include <AvCLUImage.h>
-#include <AvRaster.h>
-#include <AvString.h>
+#include "AvCLUImage.h"
+#include "AvRaster.h"
+#include "AvString.h"
 
 class AvColormap;
 

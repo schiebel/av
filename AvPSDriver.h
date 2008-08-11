@@ -69,8 +69,8 @@ Single image draws are always done in INDEXED mode.
 #include <X11/Intrinsic.h>
 #include <iostream.h>
 #include <fstream.h>
-#include <AvString.h>
-#include <AvResource.h>
+#include "AvString.h"
+#include "AvResource.h"
 
 class AvPSDriver : public AvResource {
   public:

@@ -168,19 +168,19 @@ AvAnimPanel.cc
 #include <Xm/ToggleB.h>
 #include <Xm/Scale.h>
 
-#include <AvAnimPanel.h>
-#include <AvImageViewPanel.h>
-#include <AvTimer.h>
-#include <AvImageView.h>
-#include <AvImageWindow.h>
-#include <AvViewportSetter.h>
-#include <AvCLUImage.h>
-#include <AvCLUImageSetter.h>
-#include <AvApp.h>
+#include "AvAnimPanel.h"
+#include "AvImageViewPanel.h"
+#include "AvTimer.h"
+#include "AvImageView.h"
+#include "AvImageWindow.h"
+#include "AvViewportSetter.h"
+#include "AvCLUImage.h"
+#include "AvCLUImageSetter.h"
+#include "AvApp.h"
 
-#include <goOnce.icon>
-#include <goBackForth.icon>
-#include <goCycle.icon>
+#include "goOnce.icon"
+#include "goBackForth.icon"
+#include "goCycle.icon"
 
 XImage AvAnimPanel::goOnce;
 XImage AvAnimPanel::goBackForth;

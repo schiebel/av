@@ -170,9 +170,6 @@ typedef char String64[64];
 typedef char String128[128];
 typedef char String256[256];
 
-// Won't compile w/o this under AIPS++ and I couldn't get <aips/aips++>
-// to work.
-//#if !defined(AIPSPLUSPLUS)
 typedef char Char;
 typedef unsigned char uChar;
 typedef short Short;
@@ -183,8 +180,6 @@ typedef long Long;
 typedef unsigned long uLong;
 typedef float Float;
 typedef double Double;
-//#endif
-
 
 class Av {
  public:

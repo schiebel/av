@@ -128,14 +128,14 @@
 //  AvFunctionEditor.cc
 //
 
-#include <draw.icon>
-#include <constant.icon>
-#include <linear.icon>
-#include <log.icon>
-#include <pwConstant.icon>
-#include <pwLinear.icon>
-#include <spline.icon>
-#include <sawtooth.icon>
+#include "draw.icon"
+#include "constant.icon"
+#include "linear.icon"
+#include "log.icon"
+#include "pwConstant.icon"
+#include "pwLinear.icon"
+#include "spline.icon"
+#include "sawtooth.icon"
 
 #include <stdlib.h>
 #include <Xm/Xm.h>
@@ -146,9 +146,9 @@
 #include <Xm/DrawingA.h>
 #include <Xm/Separator.h>
 #include <Xm/TextF.h>
-#include <AvFunctionEditor.h>
+#include "AvFunctionEditor.h"
 
-#include <AvApp.h>
+#include "AvApp.h"
 
 static const int CONTROLPOINTRADIUS = 6;
 

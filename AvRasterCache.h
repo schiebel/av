@@ -43,8 +43,8 @@ AvRasterCacheValue and provide storage for what is being cached.
 */
 #ifndef AvRasterCache_h
 #define AvRasterCache_h
-#include <AvResource.h>
-#include <AvTimeStamp.h>
+#include "AvResource.h"
+#include "AvTimeStamp.h"
 
 class AvRaster;
 

@@ -127,24 +127,24 @@ been updated yet. Also, some code cleanup can still be done.
 #include <Xm/LabelG.h>
 #include <Xm/Frame.h>
 
-#include <AvProfile.h>
-#include <AvProfileOptions.h>
-#include <AvXPalette.h>
-#include <AvGUIParts.h>
-#include <AvString.h>
+#include "AvProfile.h"
+#include "AvProfileOptions.h"
+#include "AvXPalette.h"
+#include "AvGUIParts.h"
+#include "AvString.h"
 // For included profiles
-#include <AvImageView.h>	// For included windows.
-#include <AvImageWindow.h>
-#include <AvImageViewPanel.h>
+#include "AvImageView.h"	// For included windows.
+#include "AvImageWindow.h"
+#include "AvImageViewPanel.h"
 //////
-#include <AvApp.h>
+#include "AvApp.h"
 
 #ifdef PGPLOT
-#include <AvPGCanvas.h>
-#include <AvPGDriver.h>
-#include <AvXCanvases.h>
-#include <AvPGDriver.h>
-#include <AvPolyline.h>
+#include "AvPGCanvas.h"
+#include "AvPGDriver.h"
+#include "AvXCanvases.h"
+#include "AvPGDriver.h"
+#include "AvPolyline.h"
 
 extern "C" {
 #include <cpgplot.h>
@@ -2115,7 +2115,7 @@ Boolean AvPGProfile::openProfileDevice(const Boolean hardcopy)
 		driver_->newPolyline(pl);
 		AvPGDriver::currentDriver(driver_);
 
-		opencode = AvPGCanvas::cpgbeg(0, "/canvas", 1, 1);
+		opencode = AvPGCanvas::cpgbeg(0, "/CANVAS", 1, 1);
 
 		if(opencode != 1)	// PGPLOT open failed.
 		{	delete driver_;

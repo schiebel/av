@@ -115,11 +115,11 @@ Notifiers.
 #include <Xm/ToggleB.h>
 #include <Xm/Text.h>
 
-#include <AvPGDriver.h>
-#include <AvPG2Pixmap.h>
-#include <AvXColorApp.h>
-#include <AvGUIParts.h>
-#include <Av.h>
+#include "AvPGDriver.h"
+#include "AvPG2Pixmap.h"
+#include "AvXColorApp.h"
+#include "AvGUIParts.h"
+#include "Av.h"
 
 static const int SHADOWTHICKNESS = 1;
 static const int BORDERWIDTH = 1;

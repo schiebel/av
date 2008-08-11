@@ -136,10 +136,10 @@ bypassed by the getStart and getShape routines.
 #include <Xm/Scale.h>
 #include <Xm/Label.h>
 #include <Xm/ToggleB.h>
-#include <AvNDConfig.h>
-#include <AvGUIParts.h>
-#include <AvAccessor.h>
-#include <Av.h>
+#include "AvNDConfig.h"
+#include "AvGUIParts.h"
+#include "AvAccessor.h"
+#include "Av.h"
 
 static const int SHADOWTHICKNESS = 1;
 static const int BORDERWIDTH = 1;

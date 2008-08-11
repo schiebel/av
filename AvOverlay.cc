@@ -95,13 +95,13 @@ file.
 #include <stdio.h>
 #include <string.h>
 #include <strings.h>			// SGI when POSIX_SRC is defined
-#include <AvOverlay.h>
-#include <AvViewportSetter.h>
-#include <AvRaster.h>
-#include <AvPGDriver.h>
-#include <AvCanvas.h>
-#include <AvAccessor.h>
-#include <AvTcl.h>
+#include "AvOverlay.h"
+#include "AvViewportSetter.h"
+#include "AvRaster.h"
+#include "AvPGDriver.h"
+#include "AvCanvas.h"
+#include "AvAccessor.h"
+#include "AvTcl.h"
 
 extern "C" {
 #include <cpgplot.h>
@@ -659,7 +659,7 @@ float cvpw, cvph;	// Canvas' viewport size.
 //****************************************************************
 //			PGPLOT code
 	// Open device.
-	if(cpgbeg(0, "/canvas", 1, 1) != 1)
+	if(cpgbeg(0, "/CANVAS", 1, 1) != 1)
 		return;
 	cpgask(0);		// Don't ask.
 

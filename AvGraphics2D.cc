@@ -99,9 +99,9 @@ Base class for display objects.
 */
 #include <stdio.h>
 
-#include <AvGraphics2D.h>
-#include <AvPathList.h>
-#include <AvIVList.h>
+#include "AvGraphics2D.h"
+#include "AvPathList.h"
+#include "AvIVList.h"
 #include <string.h>
 
 void AvGraphics2D::draw(AvCanvas &){}

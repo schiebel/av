@@ -18,9 +18,9 @@
 #ifndef __AvCoordinateSystem_h__
 #define __AvCoordinateSystem_h__
 
-#include <AvString.h>
-#include <AvRegex.h>
-#include <AvWPosition.h>
+#include "AvString.h"
+#include "AvRegex.h"
+#include "AvWPosition.h"
 
 class AvCelestialProjection;
 class AvLinearMap;

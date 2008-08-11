@@ -1,0 +1,8 @@
+This is a MODIFIED version of aipsview which was developed by the
+Radio Synthesis Imaging at the National Center for Supercomputing
+Applications (NCSA) as part of their collaboration with the former
+AIPS++ project (now reorganized as CASA, http://casa.nrao.edu).
+
+For now, the only modifications are for the purposes of compilation
+independent of AIPS++.
+

@@ -29,12 +29,8 @@
 #ifndef __AvLinearMap_h__
 #define __AvLinearMap_h__
 
-#include <AvString.h>
-#ifdef AIPSPLUSPLUS
+#include "AvString.h"
 #include <wcslib/lin.h>
-#else
-#include <lin.h>
-#endif
 
 // <summary>
 // Apply an offset (CRPIX), arbitrary matrix (PC), and scaling (CDELT).

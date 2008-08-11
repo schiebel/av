@@ -79,7 +79,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-#include <AvStringHashTable.h>
+#include "AvStringHashTable.h"
 
 //#define HASHTABLEVERBOSE
 

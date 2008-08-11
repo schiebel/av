@@ -181,13 +181,13 @@ white.
 #include <stdlib.h>			// getenv
 #include <ctype.h>			// isalnum
 
-#include <AvPGCanvas.h>
-#include <AvRaster.h>
-#include <AvPolylineP.h>
-#include <AvViewportSetter.h>
-#include <AvPalette.h>
-#include <AvString.h>
-#include <AvFallbacks.h>		// for getXOptions().
+#include "AvPGCanvas.h"
+#include "AvRaster.h"
+#include "AvPolylineP.h"
+#include "AvViewportSetter.h"
+#include "AvPalette.h"
+#include "AvString.h"
+#include "AvFallbacks.h"		// for getXOptions().
 #include <string.h>
 
 extern "C" {

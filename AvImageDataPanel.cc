@@ -152,19 +152,19 @@
 #include <Xm/PushB.h>
 #include <Xm/Separator.h>
 #include <Xm/TextF.h>
-#include <AvClipper.h>
-#include <AvCLUImage.h>
-#include <AvImageDataPanel.h>
-#include <AvImageView.h>
-#include <AvImageViewPanel.h>
-#include <AvImageWindow.h>
-#include <AvSlider.h>
-#include <AvStepper.h>
-#include <AvTable.h>
-#include <AvTwoValueSlider.h>
-#include <AvAccessor.h>
-#include <AvConfigInfo.h>
-#include <AvNDConfig.h>
+#include "AvClipper.h"
+#include "AvCLUImage.h"
+#include "AvImageDataPanel.h"
+#include "AvImageView.h"
+#include "AvImageViewPanel.h"
+#include "AvImageWindow.h"
+#include "AvSlider.h"
+#include "AvStepper.h"
+#include "AvTable.h"
+#include "AvTwoValueSlider.h"
+#include "AvAccessor.h"
+#include "AvConfigInfo.h"
+#include "AvNDConfig.h"
 #include "AvWidgetMisc.h"
 
 /*

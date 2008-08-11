@@ -120,10 +120,10 @@ AvImageDataItem defines how the an active data set is being viewed.
 */
 
 #include <X11/Intrinsic.h>
-#include <AvList.h>
+#include "AvList.h"
 
-#include <AvAccessor.h>
-#include <AvDataSet.h>
+#include "AvAccessor.h"
+#include "AvDataSet.h"
 
 class AvImageDataPanel;
 class AvImageViewItem;

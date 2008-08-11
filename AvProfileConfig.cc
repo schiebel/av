@@ -116,14 +116,14 @@
 #include <Xm/ToggleB.h>		// & For XmToggleButtonSetState()
 #include <Xm/Form.h>
 
-#include <AvProfileConfig.h>
-#include <AvImageWindow.h>
-#include <AvImageViewPanel.h>
-#include <AvImageViewItem.h>
-#include <AvPG2Pixmap.h>
-#include <AvPGDriver.h>
-#include <AvGUIParts.h>
-#include <Av.h>
+#include "AvProfileConfig.h"
+#include "AvImageWindow.h"
+#include "AvImageViewPanel.h"
+#include "AvImageViewItem.h"
+#include "AvPG2Pixmap.h"
+#include "AvPGDriver.h"
+#include "AvGUIParts.h"
+#include "Av.h"
 
 // This was copied from AvAxisConfig and still has alot of its code in
 // case an interactive profile display window ever gets written.

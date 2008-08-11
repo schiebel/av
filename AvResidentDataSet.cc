@@ -104,9 +104,9 @@ extern "C" {
 #endif
 #include <sys/stat.h>
      
-#include <AvString.h>
-#include <AvResidentDataSet.h>
-#include <Av.h>			// FLOATMAX
+#include "AvString.h"
+#include "AvResidentDataSet.h"
+#include "Av.h"			// FLOATMAX
 
 AvDataSet * AvResidentDataSet::makeExample(int sizex,
 					   int sizey,
@@ -257,7 +257,8 @@ void AvResidentDataSet::init()
   // needed, consulting AvUnits for units and measurement type.
   for (i = 0; i < rank(); i++)
     {
-      AvString s = downcase(cs_->axisName(i));
+      AvString s = cs_->axisName(i);
+      s.downcase( );
       if (s == "ra" || s.contains("right ascension"))
 	cs_->setAxisUnits(i, "degrees", "right ascension");
       else if (s == "elon" || s == "glon" || s.contains("longitude"))

@@ -97,9 +97,9 @@
 #define _IMAGE_DATA_PANEL_H
 
 
-#include <AvConductor.h>
-#include <AvFormComp.h>
-#include <AvImageView.h>
+#include "AvConductor.h"
+#include "AvFormComp.h"
+#include "AvImageView.h"
 
 
 class AvClipper;

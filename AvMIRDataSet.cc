@@ -74,9 +74,9 @@ extern "C" {
 #endif
 #include <sys/stat.h>
      
-#include <AvString.h>
-#include <AvMIRDataSet.h>
-#include <Av.h>
+#include "AvString.h"
+#include "AvMIRDataSet.h"
+#include "Av.h"
 
 ///////////////////////////////////////
 // Hack to convince miriad.h that we want "const" qualifiers when using

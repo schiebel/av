@@ -90,7 +90,7 @@ glTexSubImage2D doesn't handle subtextures correctly. (V1.1)
 #ifdef  HANDLEBLANKING
 #include <math.h>
 #ifndef STANDALONE
-#include <Av.h>			// For BLANKEDVALUE.
+#include "Av.h"			// For BLANKEDVALUE.
 #else
 #define	BLANKEDVALUE	MAXFLOAT
 #endif
@@ -117,15 +117,15 @@ static Boolean access_inited = False;
 static sem_t access_GL;
 #endif	// PTHREADS
 
-#include <AvViewportSetter.h>
-#include <AvGLCanvas.h>
-#include <AvRaster.h>
-#include <AvRasterCache.h>
-#include <AvWidgetMisc.h>
-#include <AvPolylineP.h>
-#include <AvApp.h>
-#include <AvFallbacks.h>
-#include <AvXColorApp.h>
+#include "AvViewportSetter.h"
+#include "AvGLCanvas.h"
+#include "AvRaster.h"
+#include "AvRasterCache.h"
+#include "AvWidgetMisc.h"
+#include "AvPolylineP.h"
+#include "AvApp.h"
+#include "AvFallbacks.h"
+#include "AvXColorApp.h"
 
 int AvGLCanvas::externaldrawingarea_ = -1;
 

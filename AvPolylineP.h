@@ -89,10 +89,10 @@ Private, internal include file for vectors.
 */
 #ifndef AvPolylineP_h
 #define AvPolylineP_h
-#include <AvPolyline.h>
-#include <AvGraphicContext.h>
+#include "AvPolyline.h"
+#include "AvGraphicContext.h"
 
-#include <AvPointList2D.h>
+#include "AvPointList2D.h"
 typedef AvPointList2D PointList;
 
 /*****************************************************************/

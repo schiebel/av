@@ -87,7 +87,7 @@
 Define a place to draw. x/y, width/height.
 */
 
-#include <AvViewport.h>
+#include "AvViewport.h"
 
 // Arbitrary min/max scale values since scale of <= 0 is bad.
 static float	minRasterScale_ = 1.0/1024.0, maxRasterScale_ = 1024.0;

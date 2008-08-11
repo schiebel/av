@@ -90,7 +90,7 @@
 //---------------------------------------------------------------------------
 
 #include <stdio.h>
-#include <AvColormap.h>
+#include "AvColormap.h"
 
 #include <math.h>
 

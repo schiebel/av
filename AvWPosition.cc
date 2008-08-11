@@ -81,8 +81,8 @@
 #include <iostream.h>
 #include <assert.h>
 
-#include <AvIPosition.h>
-#include <AvWPosition.h>
+#include "AvIPosition.h"
+#include "AvWPosition.h"
 
 #ifndef MIN
 #define MIN(A,B) (((A) < (B)) ? (A) : (B))

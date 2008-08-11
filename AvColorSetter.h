@@ -88,7 +88,7 @@ Used to change color used to draw vectors & text.
 */
 #ifndef AvColorSetter_h
 #define AvColorSetter_h
-#include <AvGraphics2D.h>
+#include "AvGraphics2D.h"
 
 class AvColorSetter : public AvGraphics2D {
   public:

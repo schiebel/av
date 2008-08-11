@@ -142,13 +142,13 @@ The two subclasses of AvCanvas.
 #include <stdio.h>
 #include <memory.h>
 #include <Xm/DrawingA.h>
-#include <AvWidgetMisc.h>
-#include <AvXCanvases.h>
-#include <AvViewportSetter.h>
-#include <AvPathList.h>
-#include <AvXPalette.h>
-#include <AvPixmapCache.h>
-#include <AvApp.h>
+#include "AvWidgetMisc.h"
+#include "AvXCanvases.h"
+#include "AvViewportSetter.h"
+#include "AvPathList.h"
+#include "AvXPalette.h"
+#include "AvPixmapCache.h"
+#include "AvApp.h"
 
 AvXPixmap::AvXPixmap(Widget ref, AvXPalette *pal,
 		unsigned int width, unsigned int height,

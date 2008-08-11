@@ -98,9 +98,9 @@
 #include <Xm/RowColumn.h>
 #include <Xm/Frame.h>
 
-#include <AvList.h>
-#include <AvGlishRequestList.h>
-#include <AvImageView.h>
+#include "AvList.h"
+#include "AvGlishRequestList.h"
+#include "AvImageView.h"
 
 //---------------------------------------------------------------------------
 //

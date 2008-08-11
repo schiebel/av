@@ -72,8 +72,8 @@ Notifiers.
 #ifndef AvGUIParts_h
 #define AvGUIParts_h
 #include <X11/Intrinsic.h>
-#include <AvNotifier.h>
-#include <AvWidgetMisc.h>	// childNameToWidget.
+#include "AvNotifier.h"
+#include "AvWidgetMisc.h"	// childNameToWidget.
 
 // Create a frame with a title that is either left, center or right justified.
 	enum TITLEJUSTIFY {LEFT, CENTER, RIGHT};

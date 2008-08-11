@@ -351,24 +351,24 @@
 #include <Xm/Command.h>
 #include <Xm/MainW.h>
 
-#include <AvCLUImage.h>
-#include <AvCLUImageSetter.h>		// For menus
-#include <AvImageDataPanel.h>
-#include <AvImageView.h>
-#include <AvImageViewPanel.h>
-#include <AvImageWindow.h>
-#include <AvXCanvases.h>
+#include "AvCLUImage.h"
+#include "AvCLUImageSetter.h"		// For menus
+#include "AvImageDataPanel.h"
+#include "AvImageView.h"
+#include "AvImageViewPanel.h"
+#include "AvImageWindow.h"
+#include "AvXCanvases.h"
 #ifdef AVOGL
-#include <AvGLCanvas.h>
+#include "AvGLCanvas.h"
 #endif
 
-#include <AvPosition.h>
-#include <AvPSCanvas.h>
+#include "AvPosition.h"
+#include "AvPSCanvas.h"
 #ifdef TCL
-#include <AvConfigInfo.h>
+#include "AvConfigInfo.h"
 #endif
-#include <AvPrintOptions.h>
-#include <AvPrintConfig.h>
+#include "AvPrintOptions.h"
+#include "AvPrintConfig.h"
 
 // If defined, reports how long statistics calculations take.
 //#define TIMEIT

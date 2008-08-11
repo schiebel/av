@@ -69,7 +69,7 @@
 //
 //---------------------------------------------------------------------------
 
-#include <AvScrollingBufferDataSet.h>
+#include "AvScrollingBufferDataSet.h"
 
 AvScrollingBufferDataSet::AvScrollingBufferDataSet(unsigned int size,
 						   AvDataSet * ds)

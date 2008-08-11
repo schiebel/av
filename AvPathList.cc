@@ -82,7 +82,7 @@ When a pick is performed, a PathList is created containing a list of
 pick paths. Each path is a list of objects from the toplevel viewport
 to the last object reporting a hit.
 */
-#include <AvPathList.h>
+#include "AvPathList.h"
 #include <stdio.h>
 #include <string.h>
 

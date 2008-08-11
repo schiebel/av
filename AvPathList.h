@@ -87,7 +87,7 @@ to the last object reporting a hit.
 #ifndef AvPathList_h
 #define AvPathList_h
 
-#include <AvDisplayList.h>
+#include "AvDisplayList.h"
 
 class AvPathList : public AvResource {
   public:

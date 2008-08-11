@@ -119,9 +119,9 @@ has not been done.
 #ifndef AvGraphics2D_H
 #define AvGraphics2D_H
 #include <X11/Intrinsic.h>	// Defines Boolean, TRUE, FALSE
-#include <AvResource.h>
-#include <AvGeometry.h>
-#include <AvTimeStamp.h>
+#include "AvResource.h"
+#include "AvGeometry.h"
+#include "AvTimeStamp.h"
 #include <sys/types.h>
 
 class AvCanvas;

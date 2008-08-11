@@ -39,10 +39,10 @@ Defines 'Canvas' for OpenGL and supporting wiregl.
 
 #include <X11/Xlib.h>
 #include <X11/Intrinsic.h>
-#include <AvGraphics2D.h>
-#include <AvCanvas.h>
-#include <AvXPalette.h>
-#include <AvGraphicContext.h>
+#include "AvGraphics2D.h"
+#include "AvCanvas.h"
+#include "AvXPalette.h"
+#include "AvGraphicContext.h"
 #include <GL/glx.h>
 
 class	AvTextureCache;

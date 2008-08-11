@@ -52,8 +52,8 @@ Holds information describing how to draw profiles.
 #include <stdio.h>
 #include <X11/Intrinsic.h>
 #include <Xm/ToggleBG.h>
-#include <AvString.h>
-#include <AvPrintOptions.h>
+#include "AvString.h"
+#include "AvPrintOptions.h"
 
 // TCL Variable name for print info.
 static const char *PRINTSTR = "print";

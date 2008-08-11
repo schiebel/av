@@ -95,8 +95,8 @@ Miscelaneous routines for dealing with widgets.
 
 #include <stdlib.h>
 #include <strings.h>
-#include <AvApp.h>
-#include <AvWidgetMisc.h>
+#include "AvApp.h"
+#include "AvWidgetMisc.h"
 #include <X11/Shell.h>		// Get XtNVisual definition.
 #include <Xm/Text.h>
 

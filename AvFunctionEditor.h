@@ -114,8 +114,8 @@
 
 #include <Xm/Xm.h>
 
-#include <AvRampFunction.h>
-#include <AvPointList2D.h>
+#include "AvRampFunction.h"
+#include "AvPointList2D.h"
 
 typedef void (*AvFunctionEditorCallback)(XtPointer);
 

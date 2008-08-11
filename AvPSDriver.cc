@@ -53,8 +53,8 @@ image draws are always done in INDEXED mode, temporarily changing
 colorspace if necessary.
 
 */
-#include <AvPSDriver.h>
-#include <AvVersion.h>
+#include "AvPSDriver.h"
+#include "AvVersion.h"
 #include <fstream.h>
 #include <strings.h>
 #include <unistd.h>

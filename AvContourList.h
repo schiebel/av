@@ -165,9 +165,9 @@ or the last item on the list.
 #ifndef AvContourList_h
 #define AvContourList_h
 #include <X11/Intrinsic.h>
-#include <AvContourInfo.h>
-#include <AvWPosition.h>
-#include <AvString.h>
+#include "AvContourInfo.h"
+#include "AvWPosition.h"
+#include "AvString.h"
 
 class AvConductor;
 class AvImageDataItem;

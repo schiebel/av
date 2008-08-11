@@ -97,8 +97,8 @@
 //typedef XrmQuark  Quark;
 
 #include <iostream.h>
-#include <AvWPosition.h>
-#include <AvAccessor.h>
+#include "AvWPosition.h"
+#include "AvAccessor.h"
 
 /* Give a position including units.
 AvPosition is used by AvImageWindow to convert points in one window to

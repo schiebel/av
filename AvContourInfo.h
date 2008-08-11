@@ -100,12 +100,12 @@ contour levels, colors, line type, etc.
 
 #ifndef AvContourInfo_h
 #define AvContourInfo_h
-#include <AvResource.h>
-#include <AvConductor.h>
+#include "AvResource.h"
+#include "AvConductor.h"
 #include <iostream.h>
-#include <AvWPosition.h>
-#include <AvIPosition.h>
-#include <AvConfigInfo.h>
+#include "AvWPosition.h"
+#include "AvIPosition.h"
+#include "AvConfigInfo.h"
 
 class LevelInfo;
 class AvImageDataItem;

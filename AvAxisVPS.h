@@ -119,7 +119,7 @@ Labels are drawn in the margins.
 #ifndef _AV_AXISVPS_H
 #define _AV_AXISVPS_H
 
-#include <AvViewportSetter.h>
+#include "AvViewportSetter.h"
 
 class	AvAxis;
 class	AvRaster;

@@ -67,10 +67,10 @@
  Creates an AvPixmap canvas and allows PGPLOT calls to be written into it.
 */
 #include <X11/Intrinsic.h>
-#include <AvPGDriver.h>
-#include <AvXPalette.h>
-#include <AvViewportSetter.h>
-#include <AvPG2Pixmap.h>
+#include "AvPGDriver.h"
+#include "AvXPalette.h"
+#include "AvViewportSetter.h"
+#include "AvPG2Pixmap.h"
 
 
 DEFINE_MEMBER_INFO(AvPG2Pixmap)
@@ -148,7 +148,7 @@ void AvPG2Pixmap::open(AvCanvas *c)
 	AvPGDriver::currentDriver(pgdriver_);
 
 	// Open device.
-	if(cpgbeg(0, "/canvas", 1, 1) != 1)
+	if(cpgbeg(0, "/CANVAS", 1, 1) != 1)
 		return;
 	cpgask(0);		// Don't ask.
 }

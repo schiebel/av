@@ -98,8 +98,8 @@ Holds information describing how to draw profiles.
 #include <stdio.h>
 #include <X11/Intrinsic.h>
 #include <Xm/ToggleBG.h>
-#include <AvString.h>
-#include <AvGUIParts.h>		// PGPLOTColors().
+#include "AvString.h"
+#include "AvGUIParts.h"		// PGPLOTColors().
 
 // TCL Variable name for axis info.
 static const char *AXISSTR = "axis";

@@ -92,7 +92,7 @@ Notes:
 	unrefNoDelete() decrements count, but does not delete object.
 */
 
-#include <AvResource.h>
+#include "AvResource.h"
 #include <iostream.h>
 
 AvResource::AvResource()

@@ -94,17 +94,7 @@ included in the files list.
 
 */
 
-#ifdef AIPSPLUSPLUS
-
-#include <XWin_enter.h>
-#endif
-
-#include <AvDataSet.h>
-
-#ifdef AIPSPLUSPLUS
-#include <XWin_exit.h>
-
-#endif
+#include "AvDataSet.h"
 
 class AvMakeDataSet {
  public:

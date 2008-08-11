@@ -297,33 +297,33 @@ file. They are not the same as the vector overlay mechanism.
 */
 
 #include <ctype.h>			// isalnum
-#include <AvCLUIRaster.h>
-#include <AvCLUImage.h>
-#include <AvCLUImageSetter.h>
+#include "AvCLUIRaster.h"
+#include "AvCLUImage.h"
+#include "AvCLUImageSetter.h"
 
-#include <AvMenu.h>
-#include <AvImageViewItem.h>
-#include <AvXCanvas.h>
+#include "AvMenu.h"
+#include "AvImageViewItem.h"
+#include "AvXCanvas.h"
 #ifdef PGPLOT
 #include <Xm/ToggleB.h>
-#include <AvContour.h>
-#include <AvAxis.h>
-#include <AvContourList.h>
-#include <AvContourInfo.h>
-#include <AvImageDataPanel.h>
-#include <AvImageWindow.h>
-#include <AvAxisConfig.h>
+#include "AvContour.h"
+#include "AvAxis.h"
+#include "AvContourList.h"
+#include "AvContourInfo.h"
+#include "AvImageDataPanel.h"
+#include "AvImageWindow.h"
+#include "AvAxisConfig.h"
 #endif
 // DO_OVERLAY is defined (or not) in AvCLUImageSetter.h.
 #ifdef DO_OVERLAY
-#include <AvOverlay.h>
-#include <AvOverlayConfig.h>
+#include "AvOverlay.h"
+#include "AvOverlayConfig.h"
 #endif
 
-#include <AvAxisOptions.h>
-#include <AvOverlayOptions.h>
-#include <AvImages.h>
-#include <AvAxisVPS.h>
+#include "AvAxisOptions.h"
+#include "AvOverlayOptions.h"
+#include "AvImages.h"
+#include "AvAxisVPS.h"
 
 DEFINE_MEMBER_INFO(AvCLUImageSetter)
 

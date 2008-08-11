@@ -87,7 +87,7 @@
 #ifndef _SV_COLORMAP_H
 #define _SV_COLORMAP_H
 
-#include <AvConductor.h>
+#include "AvConductor.h"
 
 /* AvColormap implements a named 4xn array of floating point data. It
 is used to store colormap values and does not modify any physical

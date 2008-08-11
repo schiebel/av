@@ -127,12 +127,12 @@
 //---------------------------------------------------------------------------
 
 #include <math.h>
-#include <AvXCanvas.h>
-#include <AvColormap.h>
-#include <AvCLUImageSetter.h>
-#include <AvImageViewItem.h>
+#include "AvXCanvas.h"
+#include "AvColormap.h"
+#include "AvCLUImageSetter.h"
+#include "AvImageViewItem.h"
 
-#include <AvCLUImage.h>
+#include "AvCLUImage.h"
 
 int AvCLUImage::nObjects = 0;
 

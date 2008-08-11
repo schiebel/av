@@ -69,9 +69,9 @@
 #ifndef __AvUnits_h__
 #define __AvUnits_h__
 
-#include <AvList.h>
-#include <AvString.h>
-#include <AvStringHashTable.h>
+#include "AvList.h"
+#include "AvString.h"
+#include "AvStringHashTable.h"
 
 class AvUnits;
 

@@ -35,9 +35,9 @@
 
 
 #include <sys/types.h>
-#include <AvUnits.h>
-#include <AvCoordinateSystem.h>
-#include <AvDataSet.h>
+#include "AvUnits.h"
+#include "AvCoordinateSystem.h"
+#include "AvDataSet.h"
 #include <string>
 using namespace std;
 

@@ -112,14 +112,14 @@ PGPLOT/AvPGDriver routines.
 #include <stdio.h>
 //#include <iostream.h>
 #ifndef STANDALONE
-#include <AvImageView.h>
+#include "AvImageView.h"
 #endif
-#include <AvContour.h>
-#include <AvViewportSetter.h>
-#include <AvRaster.h>
-#include <AvPGDriver.h>
-#include <AvCanvas.h>
-#include <AvContourInfo.h>
+#include "AvContour.h"
+#include "AvViewportSetter.h"
+#include "AvRaster.h"
+#include "AvPGDriver.h"
+#include "AvCanvas.h"
+#include "AvContourInfo.h"
 
 extern "C" {
 #include <cpgplot.h>
@@ -224,7 +224,7 @@ AvViewport *vp;
 //****************************************************************
 //			PGPLOT code
 	// Open device.
-	if(cpgbeg(0, "/canvas", 1, 1) != 1)
+	if(cpgbeg(0, "/CANVAS", 1, 1) != 1)
 		return;
 	cpgask(0);		// Don't ask.
 

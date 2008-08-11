@@ -99,10 +99,10 @@ Implemented as a DisplayList object.
 
 */
 
-#include <AvViewportSetter.h>
-#include <AvCanvas.h>
-#include <AvEvent.h>
-#include <AvPathList.h>
+#include "AvViewportSetter.h"
+#include "AvCanvas.h"
+#include "AvEvent.h"
+#include "AvPathList.h"
 
 //static char *Name = "AvViewportSetter";
 DEFINE_MEMBER_INFO(AvViewportSetter)

@@ -100,13 +100,13 @@
 
 #include <Xm/Xm.h>
 
-#include <AvFormComp.h>
+#include "AvFormComp.h"
 
 class AvAnimCtlr;
 class AvImageView;
 class AvTimer;
 class AvImageViewItem;
-#include <AvBlinkWindow.h>
+#include "AvBlinkWindow.h"
 
 class AvAnimPanel : public AvFormComp {
 

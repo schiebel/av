@@ -68,7 +68,7 @@
 
 #include <iostream.h>
 
-#include <AvVector.h>
+#include "AvVector.h"
 
 template <class T> 
 AvVector<T>::AvVector(unsigned int length, int /* origin */) : length_(length)

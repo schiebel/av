@@ -80,7 +80,7 @@
 #ifndef _SV_REPRESENTATION_H
 #define _SV_REPRESENTATION_H
 
-#include <AvObject.h>
+#include "AvObject.h"
 
 class AvRepresentation : public AvObject {
 

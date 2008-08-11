@@ -187,8 +187,8 @@ getting profiles).
 
 #include <Xm/Xm.h>
 
-#include <AvFormComp.h>
-#include <AvAccessor.h>
+#include "AvFormComp.h"
+#include "AvAccessor.h"
 
 // mode flags to specify which feedback items have been turned on
 #define UPDATE_VALUE   1

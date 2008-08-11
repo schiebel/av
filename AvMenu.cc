@@ -97,7 +97,7 @@
 #include <string.h>
 #include <Xm/PushB.h>
 
-#include <AvMenu.h>
+#include "AvMenu.h"
 
 
 AvMenu::AvMenu (int n)

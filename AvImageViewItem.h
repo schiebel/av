@@ -126,9 +126,9 @@ to the raster.
 
 #include <X11/Intrinsic.h>
 
-#include <AvImageDataItem.h>
-#include <AvPosition.h>
-#include <AvAccessor.h>
+#include "AvImageDataItem.h"
+#include "AvPosition.h"
+#include "AvAccessor.h"
 
 class AvImageWindow;
 class AvCLUImage;

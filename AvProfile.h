@@ -55,10 +55,10 @@ Display a profile in either an X window or PGPLOT canvas.
 
 #include <Xm/Xm.h>
 #include <X11/Intrinsic.h>
-#include <AvProfileOptions.h>
-#include <AvAccessor.h>
-#include <AvWPosition.h>
-#include <AvPosition.h>
+#include "AvProfileOptions.h"
+#include "AvAccessor.h"
+#include "AvWPosition.h"
+#include "AvPosition.h"
 
 class AvProfileOptions;
 class AvXPalette;

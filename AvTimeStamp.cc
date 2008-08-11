@@ -89,7 +89,7 @@ Provides indirect timestamp information. Each succeeding call to touch
 results in an increased value.
 
 */
-#include <AvTimeStamp.h>
+#include "AvTimeStamp.h"
 
 static TimeStamp timestamp_ = 0;
 

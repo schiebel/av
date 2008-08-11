@@ -110,7 +110,7 @@
 #define MAX(A,B) ((A > B) ? A : B)
 #endif
 
-#include <AvPointList2D.h>
+#include "AvPointList2D.h"
 
 class AvRampFunction
 {

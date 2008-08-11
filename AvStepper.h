@@ -108,8 +108,8 @@ the text fields that display the minimum and maximum values that make
 up the range of the stepper. */
 
 
-#include <AvFormComp.h>
-#include <AvConductor.h>
+#include "AvFormComp.h"
+#include "AvConductor.h"
 
 class AvStepper : public AvFormComp, public AvConductor {
 

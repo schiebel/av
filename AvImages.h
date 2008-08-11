@@ -105,7 +105,7 @@ Examples images
 #ifndef AvImages_H
 #define AvImages_H
 
-#include <AvImage.h>
+#include "AvImage.h"
 
 class  AvImageCross : public AvRaster {
   public:

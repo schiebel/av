@@ -179,7 +179,7 @@ DMS		Use degrees minutes seconds	No
 //#undef __P
 //#endif
 #include <math.h>
-#include <AvPolyline.h>
+#include "AvPolyline.h"
 #include "AvAxisOptions.h"
 
 class AvRaster;

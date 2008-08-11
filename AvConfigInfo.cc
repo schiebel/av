@@ -117,13 +117,8 @@
 #include <stdlib.h>			// free().
 #include <sys/types.h>			// stat
 #include <sys/stat.h>			// ..
-#include <AvConfigInfo.h>
-
-#ifdef AIPSPLUSPLUS
-#include <aips/Utilities/cregex.h>
-#else
-#include <cregex.h>
-#endif
+#include "AvConfigInfo.h"
+#include "cregex.h"
 
 #include <pwd.h>			// getpwnam
 extern int obscure_syntax;

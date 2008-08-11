@@ -118,7 +118,7 @@ The value returned is a pointer to an AvXPixmap canvas.
 */
 #ifndef AvPixmapCache_h
 #define AvPixmapCache_h
-#include <AvRasterCache.h>
+#include "AvRasterCache.h"
 
 class AvXPixmap;
 

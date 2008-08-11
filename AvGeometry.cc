@@ -77,7 +77,7 @@
 /* AvGeometry.C
 */
 
-#include <AvGeometry.h>
+#include "AvGeometry.h"
 
 static const AvAllotment one_(1,1);
 static const AvAllotment zero_(0,0);

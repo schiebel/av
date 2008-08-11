@@ -30,13 +30,8 @@
 #ifndef AvCelestialProjection_h
 #define AvCelestialProjection_h
 
-#include <AvString.h>
-
-#ifdef AIPSPLUSPLUS
+#include "AvString.h"
 #include <wcslib/cel.h>
-#else
-#include <cel.h>
-#endif
 
 // <summary>
 // Map a position on the celestial sphere to a plane.

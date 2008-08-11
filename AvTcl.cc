@@ -101,7 +101,7 @@ C++ wrapper for tcl
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <AvTcl.h>
+#include "AvTcl.h"
 
 // Default format strings in case one isn't supplied.
 static const char *DEFAULTIFORMAT = "%d";

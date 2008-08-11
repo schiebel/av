@@ -92,10 +92,10 @@ as they are made.
 #define AvProfileOptions_h
 
 #include <iostream.h>
-#include <AvResource.h>
-#include <AvConductor.h>
-#include <AvConfigInfo.h>
-#include <AvNotifier.h>
+#include "AvResource.h"
+#include "AvConductor.h"
+#include "AvConfigInfo.h"
+#include "AvNotifier.h"
 
 class AvProfileOptions : public AvResource, public AvConductor {
   public:

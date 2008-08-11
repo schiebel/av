@@ -111,7 +111,7 @@
 #include <string.h>
 #include <math.h>
 #include <float.h>		// FLT_MIN, FLT_MAX
-#include <AvRampFunction.h>
+#include "AvRampFunction.h"
 
 
 //-----Rotational-shift the values in the ramp by delta positions

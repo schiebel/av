@@ -179,14 +179,14 @@
 //
 //---------------------------------------------------------------------------
 
-#include <AvImageViewItem.h>
-#include <AvImageWindow.h>
-#include <AvCLUImage.h>
-#include <AvImageDataPanel.h>
-#include <AvImageDataItem.h>
-#include <AvImageViewPanel.h>
-#include <AvWPosition.h>
-#include <AvXColorApp.h>	// For externalDrawingArea().
+#include "AvImageViewItem.h"
+#include "AvImageWindow.h"
+#include "AvCLUImage.h"
+#include "AvImageDataPanel.h"
+#include "AvImageDataItem.h"
+#include "AvImageViewPanel.h"
+#include "AvWPosition.h"
+#include "AvXColorApp.h"	// For externalDrawingArea().
 
 // Create a "sub view" from an existing view.
 AvImageViewItem::AvImageViewItem (const AvImageViewItem & item) :

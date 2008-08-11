@@ -122,9 +122,9 @@
 #include <Xm/TextF.h>
 #include <Xm/ToggleB.h>
 
-#include <AvUserComp.h>
-#include <AvApp.h>
-#include <AvWidgetMisc.h>
+#include "AvUserComp.h"
+#include "AvApp.h"
+#include "AvWidgetMisc.h"
 
 char AvUserComp::appClass_[32] = "Av";
 char AvUserComp::appName_[32] = "Av";

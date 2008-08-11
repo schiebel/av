@@ -27,17 +27,10 @@
 //# $Id: AvCelestialProjection.cc,v 19.1 2003/09/10 05:02:59 mcalabre Exp $
 //---------------------------------------------------------------------------
 
-#include <AvCelestialProjection.h>
-#include <AvString.h>
-
-#ifdef AIPSPLUSPLUS
+#include "AvCelestialProjection.h"
+#include "AvString.h"
 #include <wcslib/cel.h>
 #include <wcslib/prj.h>
-#else
-#include <cel.h>
-#include <prj.h>
-#endif
-
 #include <stdlib.h>
 
 //----------------------------------------------------------------------------

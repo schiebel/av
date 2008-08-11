@@ -269,21 +269,21 @@
 #include <Xm/Text.h>
 #include <Xm/ToggleB.h>
 
-#include <AvAnimPanel.h>
-#include <AvColormapEditor.h>
-#include <AvImageDataItem.h>
-#include <AvImageDataPanel.h>
-#include <AvImageView.h>
-#include <AvImageViewPanel.h>
-#include <AvImageViewItem.h>
-#include <AvImageWindow.h>
-#include <AvVersion.h>
-#include <AvCLUImageSetter.h>
-#include <AvPGCanvas.h>			// To access showID().
-#include <AvConfigInfo.h>
-#include <AvXPalette.h>
-#include <AvXCanvases.h>
-#include <AvMakeDataSet.h>
+#include "AvAnimPanel.h"
+#include "AvColormapEditor.h"
+#include "AvImageDataItem.h"
+#include "AvImageDataPanel.h"
+#include "AvImageView.h"
+#include "AvImageViewPanel.h"
+#include "AvImageViewItem.h"
+#include "AvImageWindow.h"
+#include "AvVersion.h"
+#include "AvCLUImageSetter.h"
+#include "AvPGCanvas.h"			// To access showID().
+#include "AvConfigInfo.h"
+#include "AvXPalette.h"
+#include "AvXCanvases.h"
+#include "AvMakeDataSet.h"
 
 //AvDataSet *makeDataSet(const char *filename, AvString &tries);
 
@@ -424,7 +424,7 @@ void AvImageView::init ()
 
   XtVaSetValues (parentWidget_,
 		 XmNallowShellResize, TRUE,
-		 XmNtitle, "AIPS View",
+		 XmNtitle, "av",
 		 XmNcolormap, AvXColorApp::colormap(),	// Ignored??
 		 NULL);
 

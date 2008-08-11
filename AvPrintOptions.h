@@ -53,11 +53,11 @@ Holds information describing how to print a file.
 #define AvPrintOptions_h
 
 #include <iostream.h>
-#include <AvResource.h>
-#include <AvConductor.h>
-#include <AvConfigInfo.h>
-#include <AvNotifier.h>
-#include <AvPSDriver.h>
+#include "AvResource.h"
+#include "AvConductor.h"
+#include "AvConfigInfo.h"
+#include "AvNotifier.h"
+#include "AvPSDriver.h"
 
 class AvPrintOptions : public AvResource, public AvConductor {
   public:

@@ -109,7 +109,7 @@ class AvViewportSetter;
 class AvGraphics2D;
 class AvImageViewItem;
 
-#include <AvDisplayWindow.h>
+#include "AvDisplayWindow.h"
 
 
 class AvBlinkWindow : public AvDisplayWindow {

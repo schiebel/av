@@ -119,7 +119,7 @@
 #include <string.h>
 #include <strings.h>			// SGI when POSIX_SRC is defined
 #include <X11/Intrinsic.h>		// Boolean
-#include <AvPalette.h>
+#include "AvPalette.h"
 
 AvColortableEntry::AvColortableEntry()
 {	red_ = green_ = blue_ = 0.0;

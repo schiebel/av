@@ -36,7 +36,7 @@
 // Converted for standalone use by aipsview.
 
 #include <iostream>
-#include <AvRegex.h>
+#include "AvRegex.h"
 
 extern void Av_stringThrowError(const char *);
 
@@ -248,6 +248,15 @@ protected:
   // <note> There are no public constructors for SubAvString.
   //        SubAvStrings are always created via AvString operations.</note>
   //<group> 
+ public:
+  // DRS: NEED TO REMOVE THIS PUBLIC:
+  //
+  //	g++ -DPGPLOT   -c -o AvConfigInfo.o AvConfigInfo.cc
+  //	AvString.h: In static member function ‘static void AvConfigInfo::writeScript(std::fstream&, AvString&)’:
+  //	AvString.h:930: error: ‘SubAvString::SubAvString(const SubAvString&)’ is protected
+  //	AvConfigInfo.cc:990: error: within this context
+  //	AvString.h:930: error: ‘SubAvString::SubAvString(const SubAvString&)’ is protected
+  //
   SubAvString(AvString &x, unsigned int p, unsigned int l);
   SubAvString(const SubAvString &x);
   //</group>

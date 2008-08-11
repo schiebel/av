@@ -108,9 +108,9 @@
 #include <Xm/Form.h>
 #include <Xm/TextF.h>
 
-#include <AvTwoValueSlider.h>
+#include "AvTwoValueSlider.h"
 
-#include <AvClipper.h>
+#include "AvClipper.h"
 
 AvClipper::AvClipper
 (Widget parent, int buildInsideParent, int width, int prec,

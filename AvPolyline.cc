@@ -119,11 +119,11 @@
 /* AvPolyline.C
 */
 
-#include <AvPolyline.h>
-#include <AvPolylineP.h>
-#include <AvCanvas.h>
-#include <AvIVList.h>
-#include <Av.h>
+#include "AvPolyline.h"
+#include "AvPolylineP.h"
+#include "AvCanvas.h"
+#include "AvIVList.h"
+#include "Av.h"
 
 
 DEFINE_MEMBER_INFO(AvPolyline)

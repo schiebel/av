@@ -100,9 +100,9 @@ start happening. AvDisplayList now only supports adding and removing items
 from the end of the list (push/pop).
 */
 #include <string.h>
-#include <AvDisplayList.h>
-#include <AvCanvas.h>
-#include <AvPathList.h>
+#include "AvDisplayList.h"
+#include "AvCanvas.h"
+#include "AvPathList.h"
 
 DEFINE_MEMBER_INFO(AvDisplayList)
 

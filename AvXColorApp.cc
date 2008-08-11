@@ -104,11 +104,11 @@
 #include <Xm/Xm.h>
 #include <Xm/FileSB.h>
 
-#include <AvXPalette.h>
-#include <AvColormapEditor.h>
-#include <AvImageWindow.h>
-#include <AvImageView.h>
-#include <AvWidgetMisc.h>
+#include "AvXPalette.h"
+#include "AvColormapEditor.h"
+#include "AvImageWindow.h"
+#include "AvImageView.h"
+#include "AvWidgetMisc.h"
 
 AvXPalette * AvXColorApp::palette_ = NULL;
 int AvXColorApp::busy_ = 0;

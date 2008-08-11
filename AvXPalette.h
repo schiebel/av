@@ -103,7 +103,7 @@ Handle Colormap I/O to X colormaps.
 #ifndef AvXPalette_h
 #define AvXPalette_h
 
-#include <AvPalette.h>
+#include "AvPalette.h"
 
 class AvXPalette : public AvPalette {
   public:

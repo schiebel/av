@@ -166,13 +166,13 @@ Build setup window to change axis parameters.
 #include <Xm/Form.h>
 #include <Xm/FileSB.h>
 
-#include <AvAxisConfig.h>
-#include <AvImageWindow.h>
-#include <AvImageViewPanel.h>
-#include <AvImageViewItem.h>
-#include <AvGUIParts.h>
-#include <AvWidgetMisc.h>
-#include <Av.h>
+#include "AvAxisConfig.h"
+#include "AvImageWindow.h"
+#include "AvImageViewPanel.h"
+#include "AvImageViewItem.h"
+#include "AvGUIParts.h"
+#include "AvWidgetMisc.h"
+#include "Av.h"
 
 ///	Table to convert between strings and values.
 

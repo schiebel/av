@@ -122,7 +122,7 @@
 Interface to a data set.
 
 */
-#include <AvAccessor.h>
+#include "AvAccessor.h"
 
 // Create an Accessor for a data set.
 AvAccessor::AvAccessor( AvDataSet &ds, const int cbMask)

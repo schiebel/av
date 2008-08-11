@@ -28,17 +28,13 @@
 //# AIPS++ history:
 //#	10-mar-92  pjt  added the hash() member function from ivstring
 
-#include <AvString.h>
+#include "AvString.h"
 
 #include <string.h>
 
 #include <ctype.h>
 
-#ifdef AIPSPLUSPLUS
-#include <aips/Utilities/cregex.h>
-#else
-#include <cregex.h>
-#endif
+#include "cregex.h"
 
 // change the following if your machine is weird
 #if defined (_AIX)
@@ -995,8 +991,9 @@ int split(const AvString& src, AvString results[], int n, const AvRegex& r)
 
 #if defined(__GNUG__) && !defined(NO_NRV)
 
-AvString join(AvString src[], int n, const AvString& separator) return x;
+AvString join(AvString src[], int n, const AvString& separator)
 {
+  AvString x;
   AvString sep = separator;
   int xlen = 0;
   int i;
@@ -1016,6 +1013,7 @@ AvString join(AvString src[], int n, const AvString& separator) return x;
     j += sep.length();
   }
   ncopy0(src[i].chars(), &(x.rep->s[j]), src[i].length());
+  return x;
 }
 
 #else
@@ -1135,8 +1133,9 @@ AvString replicate(char c, int n) return w;
 }
 #endif
 
-AvString replicate(const AvString& y, int n) return w
+AvString replicate(const AvString& y, int n)
 {
+  AvString w;
   int len = y.length();
   w.rep = Sresize(w.rep, n * len);
   char* p = w.rep->s;
@@ -1146,10 +1145,12 @@ AvString replicate(const AvString& y, int n) return w
     p += len;
   }
   *p = 0;
+  return w;
 }
 
-AvString common_prefix(const AvString& x, const AvString& y, int startpos) return r;
+AvString common_prefix(const AvString& x, const AvString& y, int startpos)
 {
+  AvString r;
   const char* xchars = x.chars();
   const char* ychars = y.chars();
   const char* xs = &(xchars[startpos]);
@@ -1160,10 +1161,12 @@ AvString common_prefix(const AvString& x, const AvString& y, int startpos) retur
   int l;
   for (l = 0; xs < topx && ys < topy && *xs++ == *ys++; ++l);
   r.rep = AvSalloc(r.rep, ss, l, l);
+  return r;
 }
 
-AvString common_suffix(const AvString& x, const AvString& y, int startpos) return r;
+AvString common_suffix(const AvString& x, const AvString& y, int startpos)
 {
+  AvString r;
   const char* xchars = x.chars();
   const char* ychars = y.chars();
   const char* xs = &(xchars[x.length() + startpos]);
@@ -1173,6 +1176,7 @@ AvString common_suffix(const AvString& x, const AvString& y, int startpos) retur
   int l;
   for (l = 0; xs >= botx && ys >= boty && *xs == *ys ; --xs, --ys, ++l);
   r.rep = AvSalloc(r.rep, ++xs, l, l);
+ return r;
 }
 
 #else

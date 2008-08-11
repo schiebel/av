@@ -82,7 +82,7 @@
 
 #include <Xm/Form.h>
 
-#include <AvFormComp.h>
+#include "AvFormComp.h"
 
 AvFormComp::AvFormComp (Widget parent, int buildInsideParent) :
 AvUserComp (parent, buildInsideParent)

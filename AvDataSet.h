@@ -117,11 +117,11 @@
 #ifndef AvDataSet_h
 #define AvDataSet_h
 
-#include <AvResource.h>
-#include <AvConductor.h>
-#include <AvIPosition.h>
-#include <AvWPosition.h>
-#include <AvString.h>
+#include "AvResource.h"
+#include "AvConductor.h"
+#include "AvIPosition.h"
+#include "AvWPosition.h"
+#include "AvString.h"
 #include <X11/Intrinsic.h>	// Boolean
 
 /* <summary>Base class for all aipsview data classes</summary>

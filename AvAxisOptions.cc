@@ -116,14 +116,14 @@ Holds information describing how to draw axes and axis labels.
 #include <stdio.h>
 #include <X11/Intrinsic.h>
 #include <Xm/ToggleBG.h>
-#include <AvGUIParts.h>		// PGPLOTColors().
+#include "AvGUIParts.h"		// PGPLOTColors().
 #include <math.h>		// sin/cos
 //#define DEBUG
 
 #ifdef DEBUG
 #include <iostream.h>
 #endif
-#include <AvString.h>
+#include "AvString.h"
 
 // TCL Variable name for axis info.
 static const char *AXISSTR = "axis";

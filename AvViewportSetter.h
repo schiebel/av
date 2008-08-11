@@ -103,8 +103,8 @@ Implemented as a DisplayList object.
 */
 #ifndef AvViewportSetter_H
 #define AvViewportSetter_H
-#include <AvDisplayList.h>
-#include <AvViewport.h>
+#include "AvDisplayList.h"
+#include "AvViewport.h"
 
 class AvViewportSetter : public AvDisplayList {
   public:

@@ -116,7 +116,7 @@ creation and timer->unref() to destroy.
 #ifndef AvTimer_h
 #define AvTimer_h
 #include <X11/Intrinsic.h>
-#include <AvResource.h>
+#include "AvResource.h"
 
 class AvTimer : public AvResource {
   public:

@@ -151,9 +151,9 @@
 //---------------------------------------------------------------------------
 
 #include <Xm/ToggleB.h>		// For XmToggleButtonSetState()
-#include <AvImageDataItem.h>
-#include <AvMakeDataSet.h>
-#include <AvConfigInfo.h>
+#include "AvImageDataItem.h"
+#include "AvMakeDataSet.h"
+#include "AvConfigInfo.h"
 
 /*
 	There is one base accessor (which points to the data set) for a
@@ -163,12 +163,12 @@ window" will have its own accessor describing its mapping, region, etc.
  */
 
 #include <strings.h>		// strncasecmp
-#include <AvCLUImage.h>
-#include <AvImageDataPanel.h>
-#include <AvImageViewItem.h>
-#include <AvXColorApp.h>	// busy()
-#include <AvList.h>
-#include <AvNDConfig.h>
+#include "AvCLUImage.h"
+#include "AvImageDataPanel.h"
+#include "AvImageViewItem.h"
+#include "AvXColorApp.h"	// busy()
+#include "AvList.h"
+#include "AvNDConfig.h"
 
 static const char *SLICEINFO = "sliceControl";
 //

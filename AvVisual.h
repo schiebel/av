@@ -89,7 +89,7 @@
 
 class AvConductor;
 
-#include <AvRepresentation.h>
+#include "AvRepresentation.h"
 
 class AvVisual : public AvRepresentation {
 

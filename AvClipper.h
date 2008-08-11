@@ -108,12 +108,12 @@ precision to use when displaying numeric vale.  Inherits from
 AvConductor to provide callbacks. */
 
 
-#include <AvTwoValueSlider.h>
+#include "AvTwoValueSlider.h"
 
 class AvConductor;
 class AvObject;
 
-#include <AvFormComp.h>
+#include "AvFormComp.h"
 
 class AvClipper : public AvFormComp {
 

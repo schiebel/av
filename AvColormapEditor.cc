@@ -226,12 +226,12 @@
 #include <X11/Xlib.h>
 #include <X11/IntrinsicP.h>
 
-#include <AvColormap.h>
-#include <AvColormapEditor.h>
-#include <AvFunctionEditor.h>
-#include <AvPointList2D.h>
-#include <AvXPalette.h>
-#include <AvApp.h>
+#include "AvColormap.h"
+#include "AvColormapEditor.h"
+#include "AvFunctionEditor.h"
+#include "AvPointList2D.h"
+#include "AvXPalette.h"
+#include "AvApp.h"
 
 #include <string.h>
 #include <X11/keysym.h>		// After AvColormapEditor.h

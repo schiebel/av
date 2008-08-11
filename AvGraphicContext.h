@@ -101,7 +101,7 @@ A Graphic context should be assumed to be 'bound' to a single canvas.
 #ifndef AvGraphicContext_h
 #define AvGraphicContext_h
 
-#include <AvResource.h>
+#include "AvResource.h"
 
 class AvGraphicContext :public AvResource {
   public:

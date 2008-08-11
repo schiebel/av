@@ -211,14 +211,14 @@ reduce the number of unallocated colors.
 
 */
 
-#include <AvXPalette.h>
-#include <AvWidgetMisc.h>
-#include <AvFallbacks.h>	// getXOptions().
+#include "AvXPalette.h"
+#include "AvWidgetMisc.h"
+#include "AvFallbacks.h"	// getXOptions().
 #include <stdlib.h>		// getenv, strtol
 #include <iostream.h>
 
 #include <strings.h>
-#include <AvApp.h>
+#include "AvApp.h"
 
 
 static const char NCOLORS[] = "AV_PAL_NUMCOLORS";

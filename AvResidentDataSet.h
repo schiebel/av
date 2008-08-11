@@ -87,9 +87,9 @@
 #if !defined(_AvResidentDataSet_h_)
 #define _AvResidentDataSet_h_
 
-#include <AvUnits.h>
-#include <AvCoordinateSystem.h>
-#include <AvDataSet.h>
+#include "AvUnits.h"
+#include "AvCoordinateSystem.h"
+#include "AvDataSet.h"
 
 //
 // <summary>

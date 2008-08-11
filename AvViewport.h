@@ -114,7 +114,7 @@ nor is it possible to expand by a fraction of a pixel.
 #ifndef AvViewport_H
 #define AvViewport_H
 
-#include <AvGeometry.h>
+#include "AvGeometry.h"
 
 class AvViewport {
   public:

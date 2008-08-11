@@ -154,11 +154,11 @@
 
 #include <Xm/Xm.h>
 
-#include <AvList.h>
+#include "AvList.h"
 //#include <AvGriddedData.h>
 
 #ifdef GLISH
-#include <AvGlishRequestList.h>
+#include "AvGlishRequestList.h"
 #endif
 
 class AvCLUImage;
@@ -180,8 +180,8 @@ class AvPosition;
 #endif
 
 #if 1
-#include <AvImageViewItem.h>
-#include <AvImageDataItem.h>
+#include "AvImageViewItem.h"
+#include "AvImageDataItem.h"
 #else
 //AvImageView will compile with just these, but other files won't unless
 //modified to include the above includes.
@@ -190,7 +190,7 @@ class AvImageDataItem;
 #endif
 
 
-#include <AvXColorApp.h>
+#include "AvXColorApp.h"
 
 /*
   AvImageView is the primary class for the 'imageView' application.

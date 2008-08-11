@@ -80,8 +80,8 @@
 /* AvColorSetter.cc
 Used to change color used to draw vectors & text.
 */
-#include <AvColorSetter.h>
-#include <AvCanvas.h>
+#include "AvColorSetter.h"
+#include "AvCanvas.h"
 
 DEFINE_MEMBER_INFO(AvColorSetter)
 

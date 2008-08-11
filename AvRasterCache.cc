@@ -33,8 +33,8 @@
 Pixmap cache mechanism.
 This is the table class from Interviews.
 */
-#include <AvRasterCache.h>
-#include <AvRaster.h>
+#include "AvRasterCache.h"
+#include "AvRaster.h"
 
 AvRasterCacheKey::AvRasterCacheKey()
 {

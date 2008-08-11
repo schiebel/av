@@ -111,7 +111,7 @@ relative addressing.
 
 #ifndef AvPolyline_h
 #define AvPolyline_h
-#include <AvGraphics2D.h>
+#include "AvGraphics2D.h"
 
 class AvPolylineImpl;
 

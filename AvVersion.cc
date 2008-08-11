@@ -73,7 +73,7 @@ and compile quickly.
 #include <stdlib.h>
 #include <string.h>
 #include <sys/utsname.h>		// uname
-#include <AvVersion.h>
+#include "AvVersion.h"
 
 // This probably shouldn't be set outside since the memo may use the 
 // release level itself. Changing this won't change references there.

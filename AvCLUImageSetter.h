@@ -161,8 +161,8 @@ creates the contour user interface.
 #ifndef _SV_CLU_IMAGESETTER_H
 #define _SV_CLU_IMAGESETTER_H
 
-#include <AvCLUImage.h>
-#include <AvViewportSetter.h>
+#include "AvCLUImage.h"
+#include "AvViewportSetter.h"
 
 class	AvMenu;
 struct	AvMenuButtonInfo;

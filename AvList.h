@@ -499,20 +499,20 @@ public:
   
   // Move the iterator forward or backward by 1
   // <group>
-  void step()   { if (!isdone()) index_++; AvListIter<T>::step(); }
-  void back()   { if (!isdone()) index_--; AvListIter<T>::back(); }
+  void step()   { if (!AvListIter<T>::isdone()) index_++; AvListIter<T>::step(); }
+  void back()   { if (!AvListIter<T>::isdone()) index_--; AvListIter<T>::back(); }
   // </group>
 
   // Return the current value and move the iterator forward(backward) by 1
   // <group>
-  T get()       { if (!isdone()) index_++; return AvListIter<T>::get(); }
-  T revGet()    { if (!isdone()) index_--; return AvListIter<T>::revGet(); }
+  T get()       { if (!AvListIter<T>::isdone()) index_++; return AvListIter<T>::get(); }
+  T revGet()    { if (!AvListIter<T>::isdone()) index_--; return AvListIter<T>::revGet(); }
   // </group>
 
   // Move the iterator to the beginning(end) of the list
   // <group>
   void rewind() { index_ = 0; AvListIter<T>::rewind(); }
-  void fwdWind() { int n = l_->length()-1; gotoNth(n); index_ = n; }
+  void fwdWind() { int n = AvListIter<T>::l_->length()-1; gotoNth(n); index_ = n; }
   // </group>
 
   // Return the current (0-based) index into the list.

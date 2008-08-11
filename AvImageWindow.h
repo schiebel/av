@@ -195,9 +195,9 @@ axis name information (AvPosition).
 */
 
 #ifdef AVOGL
-#include <AvGLCanvas.h>
+#include "AvGLCanvas.h"
 #else
-#include <AvXCanvases.h>
+#include "AvXCanvases.h"
 #endif
 class AvCLUImage;
 class AvImageDataPanel;
@@ -209,10 +209,10 @@ class AvImageViewItem;
 class AvPrintConfig;
 class AvPrintOptions;
 
-#include <AvDisplayWindow.h>
-#include <AvTable.h>
-#include <AvEvent.h>
-#include <AvConductor.h>
+#include "AvDisplayWindow.h"
+#include "AvTable.h"
+#include "AvEvent.h"
+#include "AvConductor.h"
 
 class AvImageWindow : public AvDisplayWindow {
 

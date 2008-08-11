@@ -118,8 +118,8 @@ Holds information describing how to draw contours such as the
 contour levels, colors, line type, etc.
 */
 
-#include <AvContourInfo.h>
-#include <AvConfigInfo.h>
+#include "AvContourInfo.h"
+#include "AvConfigInfo.h"
 
 #include <stdio.h>
 

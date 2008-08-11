@@ -145,8 +145,8 @@ subclassed varient to do the actual work. eg. allocNamedColor.
 #define AvPalette_h
 
 #include <X11/Intrinsic.h>	// Defines Boolean
-#include <AvResource.h>
-#include <AvString.h>
+#include "AvResource.h"
+#include "AvString.h"
 
 // A color table entry holds a color value.
 class AvColortableEntry {

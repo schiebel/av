@@ -125,12 +125,12 @@ Labels are drawn in the margins.
 */
 
 #include <stdio.h>
-#include <AvAxisVPS.h>
-#include <AvXCanvas.h>
-#include <AvCLUIRaster.h>
+#include "AvAxisVPS.h"
+#include "AvXCanvas.h"
+#include "AvCLUIRaster.h"
 
 #ifdef PGPLOT
-#include <AvAxis.h>
+#include "AvAxis.h"
 #endif
 
 DEFINE_MEMBER_INFO(AvAxisVPS)

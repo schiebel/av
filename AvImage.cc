@@ -94,7 +94,7 @@
 
 /* AvImage.C
 */
-#include <AvImage.h>
+#include "AvImage.h"
 
 //static char *Name = "AvImage";
 DEFINE_MEMBER_INFO(AvImage)

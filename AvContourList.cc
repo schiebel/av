@@ -185,12 +185,12 @@ This version uses its own top level window.
 //////////
 #include <Xm/DialogS.h>
 #include <Xm/List.h>
-#include <AvContourList.h>
-#include <AvGUIParts.h>
+#include "AvContourList.h"
+#include "AvGUIParts.h"
 
-#include <Av.h>
+#include "Av.h"
 #ifndef STANDALONE
-#include <AvXColorApp.h>
+#include "AvXColorApp.h"
 #endif
 
 // Labels for the "mode" buttons.

@@ -112,11 +112,11 @@ Defines 'drawable'.
 #ifndef AvCanvas_h
 #define AvCanvas_h
 
-#include <AvResource.h>
-#include <AvRaster.h>
-#include <AvEvent.h>
-#include <AvViewport.h>
-//#include <AvGraphicContext.h>
+#include "AvResource.h"
+#include "AvRaster.h"
+#include "AvEvent.h"
+#include "AvViewport.h"
+//#include "AvGraphicContext.h"
 
 class AvCanvasImpl;
 class AvPolylineCmd;

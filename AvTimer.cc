@@ -95,7 +95,7 @@
 /*AvTimer.cc
 */
 
-#include <AvTimer.h>
+#include "AvTimer.h"
 #include <sys/types.h>
 #include <sys/times.h>		// clock_t
 #include <unistd.h>		// sysconf (needed to get ticks/sec).

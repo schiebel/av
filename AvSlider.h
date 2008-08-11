@@ -106,8 +106,8 @@ control over precision to use when displaying numeric vale.  Inherits
 from AvConductor to provide callbacks. */
 
 
-#include <AvConductor.h>
-#include <AvFormComp.h>
+#include "AvConductor.h"
+#include "AvFormComp.h"
 
 class AvSlider : public AvFormComp, public AvConductor {
 

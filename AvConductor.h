@@ -120,7 +120,7 @@
 
 
 #include <X11/Intrinsic.h>		// NULL, TRUE, FALSE.
-#include <AvResource.h>
+#include "AvResource.h"
 
 class AvConductor;
 

@@ -261,15 +261,15 @@ X Context isn't finished yet. (It may even get phased out).
 #endif
 
 #include <Xm/Xm.h>
-#include <AvXCanvas.h>
-#include <AvRaster.h>
-#include <AvWidgetMisc.h>
-#include <AvPolylineP.h>
-#include <AvXCanvases.h>
-#include <AvPixmapCache.h>
-#include <AvApp.h>
-#include <AvFallbacks.h>
-#include <AvXColorApp.h>
+#include "AvXCanvas.h"
+#include "AvRaster.h"
+#include "AvWidgetMisc.h"
+#include "AvPolylineP.h"
+#include "AvXCanvases.h"
+#include "AvPixmapCache.h"
+#include "AvApp.h"
+#include "AvFallbacks.h"
+#include "AvXColorApp.h"
 
 const char *CLIPTO_COLOR = "AV_CLIPTO_COLOR";
 

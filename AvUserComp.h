@@ -122,7 +122,7 @@ in other widgets or shells.  */
 
 
 #include <Xm/Xm.h>
-#include <Av.h>
+#include "Av.h"
 
 class AvUserComp {
 

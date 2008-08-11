@@ -172,6 +172,7 @@
 #include "AvCoordinateSystem.h"
 #include "AvString.h"
 
+
 //////////////////////////////////////////////////////////////////////
 //	Support for command line arguments.
 
@@ -1306,8 +1307,16 @@ static void parseArgs(int &argc, char **argv)
 	delete [] nargv;
 }
 
+#if defined(__APPLE_CC__)
+extern "C" void add_late_binding_pgdriver(void (*driver)(int *, float *, int *, char *, int *, int *, int));
+extern "C" void avdriv(int *opc, float *rbuf, int *nbuf, char *chr, int *lchr, int *mode, int len);
+#endif 
+
 int main (int argc, char ** argv)
 {
+  #if defined(__APPLE_CC__)
+  add_late_binding_pgdriver( avdriv );
+  #endif
 
   // Initialize those optionVar variables that aren't handled by the X
   // resource mechanism.

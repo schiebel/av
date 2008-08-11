@@ -139,10 +139,10 @@ Defines 'Canvas' for X.
 
 #include <X11/Xlib.h>
 #include <X11/Intrinsic.h>
-#include <AvGraphics2D.h>
-#include <AvCanvas.h>
-#include <AvXPalette.h>
-#include <AvGraphicContext.h>
+#include "AvGraphics2D.h"
+#include "AvCanvas.h"
+#include "AvXPalette.h"
+#include "AvGraphicContext.h"
 
 class	AvPixmapCache;
 class	AvXCanvas;

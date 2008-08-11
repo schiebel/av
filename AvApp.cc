@@ -227,14 +227,14 @@
 #include <Xm/ToggleB.h>
 #include <Xm/PushB.h>
 
-#include <AvApp.h>
-#include <AvMenu.h>
-#include <AvXPalette.h>
-#include <AvFallbacks.h>
-#include <AvMakeDataSet.h>
+#include "AvApp.h"
+#include "AvMenu.h"
+#include "AvXPalette.h"
+#include "AvFallbacks.h"
+#include "AvMakeDataSet.h"
 
 #ifdef PGPLOT
-#include <AvPGDriver.h>
+#include "AvPGDriver.h"
 #endif
 
 #if defined(PTHREADS)

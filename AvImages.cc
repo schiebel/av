@@ -108,9 +108,9 @@
 /* AvImages.C
 Example images.
 */
-#include <AvImages.h>
-#include <AvViewport.h>
-#include <AvCanvas.h>
+#include "AvImages.h"
+#include "AvViewport.h"
+#include "AvCanvas.h"
 
 #include <stdio.h>
 

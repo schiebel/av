@@ -58,9 +58,9 @@ Creates several buttons and sliders for changing options.
 #define AvNDConfig_h
 
 #include <X11/Intrinsic.h>
-#include <AvImageDataItem.h>
-#include <AvIPosition.h>
-#include <AvString.h>
+#include "AvImageDataItem.h"
+#include "AvIPosition.h"
+#include "AvString.h"
 
 class RowList;
 class AvAccessor;

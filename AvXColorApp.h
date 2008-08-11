@@ -97,7 +97,7 @@
 #ifndef _SV_XCOLOR_APP_H
 #define _SV_XCOLOR_APP_H
 
-#include <AvApp.h>
+#include "AvApp.h"
 
 class AvXPalette;
 

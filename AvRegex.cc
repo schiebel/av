@@ -98,15 +98,11 @@
 #include <limits.h>
 
 // extern "C" {
-#ifdef AIPSPLUSPLUS
-#include <aips/Utilities/cregex.h>
-#else
-#include <cregex.h>
-#endif
+#include "cregex.h"
 // }
 
-#include <AvRegex.h>
-#include <AvString.h>
+#include "AvRegex.h"
+#include "AvString.h"
 
 AvRegex::AvRegex ()
     { create ("",0,0,0); }

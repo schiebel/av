@@ -133,8 +133,8 @@ static inline float Avftrunc(const float x)
 	return (float)(xd - fmod(xd, 1.0));
 }
 
-#include <AvString.h>
-#include <AvUnits.h>
+#include "AvString.h"
+#include "AvUnits.h"
 
 
 // bitfield entries ...

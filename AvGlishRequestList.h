@@ -117,8 +117,8 @@ Deletion:
 #include <X11/Intrinsic.h>
 #include <Xm/Xm.h>
 
-#include <AvList.h>
-#include <AvXGlishClient.h>
+#include "AvList.h"
+#include "AvXGlishClient.h"
 
 class AvGlishRequestList;
 

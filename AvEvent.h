@@ -89,7 +89,7 @@
 #define AvEvent_h
 
 class AvCanvas;
-#include <AvGeometry.h>
+#include "AvGeometry.h"
 
 enum AvKeyMask { AvNoKeyMask=0, AvShiftMask=1, AvLockMask=2,
 		AvControlMask=4, AvMod1Mask=8,

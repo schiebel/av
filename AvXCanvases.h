@@ -110,9 +110,9 @@ The two XCanvas objects.
 #define AvCanvass_h
 
 #include <X11/Intrinsic.h>
-#include <AvXCanvas.h>
+#include "AvXCanvas.h"
 class AvXPalette;
-#include <AvViewportSetter.h>
+#include "AvViewportSetter.h"
 
 class AvXPixmap : public AvXCanvas {
   public:

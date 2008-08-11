@@ -41,7 +41,7 @@
 // Av.cc
 // Implements a number of constants and generic routines for aipsview.
 
-#include <Av.h>
+#include "Av.h"
 #include <strings.h>
 #include <math.h>
 

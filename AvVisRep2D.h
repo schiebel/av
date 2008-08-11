@@ -89,7 +89,7 @@
 
 class AvGraphics2D;
 
-#include <AvVisual.h>
+#include "AvVisual.h"
 
 class AvVisRep2D : public AvVisual {
 

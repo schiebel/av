@@ -94,10 +94,10 @@ and x and y axis parameters and markers.
 #define AvAxisOptions_h
 
 #include "iostream.h"
-#include <AvResource.h>
-#include <AvConductor.h>
-#include <AvNotifier.h>
-#include <AvConfigInfo.h>
+#include "AvResource.h"
+#include "AvConductor.h"
+#include "AvNotifier.h"
+#include "AvConfigInfo.h"
 
 
 class AvAxisOptions : public AvResource, public AvConductor {

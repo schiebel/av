@@ -124,9 +124,9 @@
 
 #include <math.h>
 #include <limits.h>
-#include <Av.h>
+#include "Av.h"
 
-#include <AvColormap.h>
+#include "AvColormap.h"
 
 class AvCECmap : public AvColormap {
 public:
@@ -149,11 +149,11 @@ private:
 };
 
 
-#include <AvFunctionEditor.h>
-#include <AvPalette.h>
+#include "AvFunctionEditor.h"
+#include "AvPalette.h"
 
-#include <AvConductor.h>
-#include <AvXColorApp.h>
+#include "AvConductor.h"
+#include "AvXColorApp.h"
 
 class AvColormapEditor : public AvXColorApp, public AvConductor {
 

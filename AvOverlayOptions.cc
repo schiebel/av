@@ -58,10 +58,10 @@ Holds information describing how to draw overlays.
 (Most information comes from the overlay command file).
 */
 
-#include <AvOverlayOptions.h>
-#include <AvAccessor.h>
-#include <AvString.h>
-#include <AvGUIParts.h>		// PGPLOTColors().
+#include "AvOverlayOptions.h"
+#include "AvAccessor.h"
+#include "AvString.h"
+#include "AvGUIParts.h"		// PGPLOTColors().
 #include <math.h>		// sin/cos
 
 // TCL Variable name for overlay info.

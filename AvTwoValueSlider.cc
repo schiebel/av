@@ -97,9 +97,9 @@
 #include <Xm/ArrowB.h>
 #include <Xm/PushB.h>
 
-#include <AvTwoValueSlider.h>
-#include <AvWidgetMisc.h>
-#include <Av.h>
+#include "AvTwoValueSlider.h"
+#include "AvWidgetMisc.h"
+#include "Av.h"
 
 int AvTwoValueSlider::controlWidth = 12;
 int AvTwoValueSlider::controlHalfWidth = 6;

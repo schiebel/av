@@ -102,12 +102,12 @@ Build setup window to change overlay parameters.
 #include <Xm/Form.h>
 #include <Xm/FileSB.h>
 
-#include <AvOverlayConfig.h>
-#include <AvImageWindow.h>
-#include <AvImageViewPanel.h>
-#include <AvImageViewItem.h>
-#include <AvGUIParts.h>
-#include <AvWidgetMisc.h>
+#include "AvOverlayConfig.h"
+#include "AvImageWindow.h"
+#include "AvImageViewPanel.h"
+#include "AvImageViewItem.h"
+#include "AvGUIParts.h"
+#include "AvWidgetMisc.h"
 
 ////////////////////////////////////////////////////////////////
 AvOverlayConfig::AvOverlayConfig(const char *name, Widget ref,
